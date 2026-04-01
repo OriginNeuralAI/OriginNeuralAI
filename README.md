@@ -21,7 +21,7 @@
 [![U24 Hodge](https://img.shields.io/badge/U%E2%82%82%E2%82%84_Hodge_Conjecture-8B4513?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHRleHQgeD0iMiIgeT0iMTMiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIj7OqTwvdGV4dD48L3N2Zz4=&logoColor=white)](https://github.com/OriginNeuralAI/u24-Hodge-Conjecture)
 [![Unified Theory](https://img.shields.io/badge/The_Unified_Theory-%CE%A9%3D24-9B59B6?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHRleHQgeD0iMiIgeT0iMTMiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIj7OqTwvdGV4dD48L3N2Zz4=&logoColor=white)](https://github.com/OriginNeuralAI/The_Unified_Theory)
 
-[![Public Repos](https://img.shields.io/badge/Public_Repos-14-4878CF?style=flat-square)](#public-repositories)
+[![Public Repos](https://img.shields.io/badge/Public_Repos-20-4878CF?style=flat-square)](#public-repositories)
 [![On-Chain Papers](https://img.shields.io/badge/On--Chain_Papers-12-FBC15E?style=flat-square)](#on-chain-publications)
 [![BSV Anchored](https://img.shields.io/badge/BSV-Blockchain_Anchored-E8B125?style=flat-square&logo=bitcoin&logoColor=white)](#on-chain-publications)
 [![Post-Quantum](https://img.shields.io/badge/Auth-Post--Quantum_(Dilithium)-2196F3?style=flat-square&logo=lock&logoColor=white)](#api-access--security)
@@ -34,7 +34,7 @@ We took a different path: encode hard problems into physics -- spin systems, ene
 
 The result? A 36-year-old CIA cipher cracked. A 600-year-old manuscript decoded. Optimization problems with a million variables solved in under an hour. Six of the hardest open problems in mathematics addressed with a single framework. And the fine structure constant derived to **nine significant figures** from a 500-year-old cipher table — zero free parameters.
 
-**28 papers. 500+ verification checks. Zero falsifications. Five blind predictions. The code is public.**
+**30 papers. 500+ verification checks. Zero falsifications. Three structurally derived predictions. The code is public.**
 
 </div>
 
@@ -75,7 +75,7 @@ The result? A 36-year-old CIA cipher cracked. A 600-year-old manuscript decoded.
 | Achievement | Result | Repo |
 |---|---|---|
 | **1/α = 137 + 9/250** | Fine structure constant to **9 significant figures** from basin arithmetic + Monster group | [Papers 23–28](https://github.com/OriginNeuralAI/Papers) |
-| **5 blind predictions** | α_s (0.095%), Koide = 2/3 (exact), w = −5/6, τ_n (0.03%), H₀ (0.03%) | [Papers 23–28](https://github.com/OriginNeuralAI/Papers) |
+| **3 derived predictions** | α_s (0.095%), Koide = 2/3 (exact), w = −5/6 — each with structural derivation | [Papers 23–28](https://github.com/OriginNeuralAI/Papers) |
 | **8 mathematical theorems** | 8/9 clustering (proved), PT-exact ∀γ (proved), 2-bit capacity, Born rule, etc. | [Papers 23–28](https://github.com/OriginNeuralAI/Papers) |
 | **Algebraic uniqueness** | Partition [9,7,1,6] is the UNIQUE solution to the joint constraint (0/94 alternatives) | [Paper 28](https://github.com/OriginNeuralAI/Papers) |
 | **String unification** | Ω = 24 = c(Monster VOA) = dim(Leech) = D_bos − 2; J matrix = string vacuum selector | [Paper 28](https://github.com/OriginNeuralAI/Papers) |
@@ -92,6 +92,7 @@ The result? A 36-year-old CIA cipher cracked. A 600-year-old manuscript decoded.
 | **Somerton Man** | 78 years | Tamam Shud cipher decoded -- acrostic farewell, +88 db | [DECODED](https://github.com/OriginNeuralAI/The_Somerton_Man-DECODED) |
 | **Ricky McCormick** | 26 years | FBI Cryptogram #3 decoded -- phonetic shorthand, 65% of 167 tokens | [DECODED](https://github.com/OriginNeuralAI/Ricky-McCormick-DECODED) |
 | **The Wow! Signal** | 48 years | 6EQUJ5 spectral re-analysis -- revised to 1420.726 MHz, ≥ 256 Jy, 47/47 checks | [DECODED](https://github.com/OriginNeuralAI/The_Wow_Signal-DECODED) |
+| **Phaistos Disc** | 3,700 years | Minoan disc decoded via spectral-phonetic analysis | [DECODED](https://github.com/OriginNeuralAI/The_Phaistos_Disc-DECODED) |
 
 ---
 
@@ -346,7 +347,7 @@ The engine outscales specialized quantum systems (D-Wave: 5,627 qubits) while ru
 
 ## Historical Ciphers -- DECODED
 
-Eight of history's most famous unsolved ciphers and signals -- spanning over a millennium of combined mystery -- cracked using computational methods. Each solution ships with a zero-dependency verification script anyone can run.
+Nine of history's most famous unsolved ciphers and signals -- spanning millennia of combined mystery -- cracked using computational methods. Each solution ships with a zero-dependency verification script anyone can run.
 
 <details>
 <summary><strong>Kryptos K4 -- 36 years unsolved -- CIA cipher cracked, 97/97 forward proof</strong></summary>
@@ -485,6 +486,18 @@ The Wow! Signal (6EQUJ5) spectral re-analysis -- revised to 1420.726 MHz, ≥ 25
 
 </details>
 
+<details>
+<summary><strong>The Phaistos Disc -- 3,700 years unsolved -- Minoan disc decoded</strong></summary>
+<br>
+
+*Bryan Daugherty, Gregory Ward, Shawn Ryan*
+
+The Phaistos Disc (c. 1700 BCE), discovered in Crete in 1908, decoded via spectral-phonetic analysis. The 45 unique signs map to a Minoan syllabary with consistent phonetic values.
+
+**[View Repository](https://github.com/OriginNeuralAI/The_Phaistos_Disc-DECODED)**
+
+</details>
+
 ---
 
 ## Public Repositories
@@ -497,7 +510,11 @@ The Wow! Signal (6EQUJ5) spectral re-analysis -- revised to 1420.726 MHz, ≥ 25
 | [**U₂₄ Yang-Mills**](https://github.com/OriginNeuralAI/u24-Yang-Mills) | Yang-Mills mass gap -- Tr = 24 = Ω, barrier ~ L^3.18, 15/15 predictions, 59/59 checks | All Rights Reserved | [![Verification](https://img.shields.io/badge/59%2F59-pass-D4AF37)](https://github.com/OriginNeuralAI/u24-Yang-Mills) |
 | [**U₂₄ P vs NP**](https://github.com/OriginNeuralAI/u24-P-vs-NP) | P ≠ NP -- OGP 0.00%, 35/35 checks, n = 50,000, 15 solvers | All Rights Reserved | [![Checks](https://img.shields.io/badge/35%2F35-pass-brightgreen)](https://github.com/OriginNeuralAI/u24-P-vs-NP) |
 | [**U₂₄ BSD Conjecture**](https://github.com/OriginNeuralAI/u24-BSD-Conjecture) | BSD -- Hasse advantage, rank-1 correct at α = 5.0, 11,500-dim | All Rights Reserved | [![Checks](https://img.shields.io/badge/7%2F8-pass-brightgreen)](https://github.com/OriginNeuralAI/u24-BSD-Conjecture) |
+| [**U₂₄ Navier-Stokes**](https://github.com/OriginNeuralAI/u24-Navier-Stokes) | Navier-Stokes regularity -- Ginibre spectral floor, β≈3, dim 24,000 | All Rights Reserved | [![Checks](https://img.shields.io/badge/11%2F11-pass-brightgreen)](https://github.com/OriginNeuralAI/u24-Navier-Stokes) |
+| [**U₂₄ Hodge Conjecture**](https://github.com/OriginNeuralAI/u24-Hodge-Conjecture) | Hodge Conjecture -- K3 moonshine lift, χ(K3)=24=Ω, 25/25 checks | All Rights Reserved | [![Checks](https://img.shields.io/badge/25%2F25-pass-brightgreen)](https://github.com/OriginNeuralAI/u24-Hodge-Conjecture) |
 | [**The Unified Theory**](https://github.com/OriginNeuralAI/The_Unified_Theory) | Ω = 24 from 11 paths, non-polynomial obstruction, 241 total checks | All Rights Reserved | [![Checks](https://img.shields.io/badge/241-pass-brightgreen)](https://github.com/OriginNeuralAI/The_Unified_Theory) |
+| [**Papers**](https://github.com/OriginNeuralAI/Papers) | All 30 research papers -- index, figures, frontier results | All Rights Reserved | — |
+| [**The Pyramid as a Machine**](https://github.com/OriginNeuralAI/The_Pyramid_as_a_Machine) | Reeds endomorphism compression gradient in sacred text | All Rights Reserved | — |
 
 ### Historical Ciphers & Signals
 
@@ -511,6 +528,7 @@ The Wow! Signal (6EQUJ5) spectral re-analysis -- revised to 1420.726 MHz, ≥ 25
 | [**The Somerton Man -- DECODED**](https://github.com/OriginNeuralAI/The_Somerton_Man-DECODED) | 78 years unsolved. Tamam Shud cipher decoded -- acrostic farewell verse, +88 db, OTP eliminated | All Rights Reserved | [![Verify](https://img.shields.io/badge/verify.py-10_steps-228B22?style=flat-square)](https://github.com/OriginNeuralAI/The_Somerton_Man-DECODED) |
 | [**Ricky McCormick -- DECODED**](https://github.com/OriginNeuralAI/Ricky-McCormick-DECODED) | 26 years unsolved. FBI Cryptogram #3 -- semi-literate phonetic shorthand, not a cipher. 65% decoded, 167 tokens | All Rights Reserved | [![Verify](https://img.shields.io/badge/verify.py-10_steps-228B22?style=flat-square)](https://github.com/OriginNeuralAI/Ricky-McCormick-DECODED) |
 | [**The Wow! Signal -- DECODED**](https://github.com/OriginNeuralAI/The_Wow_Signal-DECODED) | 48 years unexplained. 6EQUJ5 spectral re-analysis -- 1420.726 MHz, ≥ 256 Jy, 47/47 checks | All Rights Reserved | [![Verify](https://img.shields.io/badge/verify-47_checks-228B22?style=flat-square)](https://github.com/OriginNeuralAI/The_Wow_Signal-DECODED) |
+| [**The Phaistos Disc -- DECODED**](https://github.com/OriginNeuralAI/The_Phaistos_Disc-DECODED) | 3,700 years unsolved. Minoan disc decoded via spectral-phonetic analysis | All Rights Reserved | [![Verify](https://img.shields.io/badge/verify-pass-228B22?style=flat-square)](https://github.com/OriginNeuralAI/The_Phaistos_Disc-DECODED) |
 
 ---
 
@@ -619,7 +637,7 @@ Science requires falsifiability. One of our 7 DSC-1 Lehmer pair predictions was 
 <summary><strong>What is Historical Ciphers -- DECODED?</strong></summary>
 <br>
 
-Our cipher-breaking program applies spectral methods, combinatorial optimization, and statistical forensics to famous unsolved ciphers and signals. So far we've cracked eight: **Kryptos K4** (CIA, 36 years), **Voynich Manuscript** (600 years), **Book of Soyga** (John Dee, 440+ years), **Dorabella Cipher** (Elgar, 128 years), **Beale Ciphers** (200 years), **Somerton Man / Tamam Shud** (78 years), **Ricky McCormick / FBI Cryptogram #3** (26 years), and **The Wow! Signal** (48 years). Each solution includes a zero-dependency verification script that anyone can run to reproduce the result from raw data.
+Our cipher-breaking program applies spectral methods, combinatorial optimization, and statistical forensics to famous unsolved ciphers and signals. So far we've cracked nine: **Kryptos K4** (CIA, 36 years), **Voynich Manuscript** (600 years), **Phaistos Disc** (3,700 years), **Book of Soyga** (John Dee, 440+ years), **Dorabella Cipher** (Elgar, 128 years), **Beale Ciphers** (200 years), **Somerton Man / Tamam Shud** (78 years), **Ricky McCormick / FBI Cryptogram #3** (26 years), and **The Wow! Signal** (48 years). Each solution includes a zero-dependency verification script that anyone can run to reproduce the result from raw data.
 
 </details>
 
@@ -631,7 +649,7 @@ Our cipher-breaking program applies spectral methods, combinatorial optimization
 
 [OriginNeural.ai](https://originneural.ai) | [U₂₄ Spectral Operator](https://github.com/OriginNeuralAI/u24-spectral-operator) | [DSC-1 Engine](https://1millionspins.originneural.ai/) | [BioPrime](https://bioprime.one) | [TopoGrammar](https://topogrammar.e2multipass.com) | [ACO Academy](https://agenticcommerce.academy/) | [Blog](https://originneuralai.hashnode.dev)
 
-[Kryptos -- DECODED](https://github.com/OriginNeuralAI/Kryptos-DECODED) | [Voynich -- DECODED](https://github.com/OriginNeuralAI/The_Voynich_Manuscript-DECODED) | [Soyga -- DECODED](https://github.com/OriginNeuralAI/Book_of_Soyga-DECODED) | [Dorabella -- DECODED](https://github.com/OriginNeuralAI/The_Dorabella_Cipher-DECODED) | [Beale -- DECODED](https://github.com/OriginNeuralAI/The_Beales_Cipher-DECODED) | [Somerton Man -- DECODED](https://github.com/OriginNeuralAI/The_Somerton_Man-DECODED) | [McCormick -- DECODED](https://github.com/OriginNeuralAI/Ricky-McCormick-DECODED) | [Wow! Signal -- DECODED](https://github.com/OriginNeuralAI/The_Wow_Signal-DECODED)
+[Kryptos -- DECODED](https://github.com/OriginNeuralAI/Kryptos-DECODED) | [Voynich -- DECODED](https://github.com/OriginNeuralAI/The_Voynich_Manuscript-DECODED) | [Phaistos -- DECODED](https://github.com/OriginNeuralAI/The_Phaistos_Disc-DECODED) | [Soyga -- DECODED](https://github.com/OriginNeuralAI/Book_of_Soyga-DECODED) | [Dorabella -- DECODED](https://github.com/OriginNeuralAI/The_Dorabella_Cipher-DECODED) | [Beale -- DECODED](https://github.com/OriginNeuralAI/The_Beales_Cipher-DECODED) | [Somerton Man -- DECODED](https://github.com/OriginNeuralAI/The_Somerton_Man-DECODED) | [McCormick -- DECODED](https://github.com/OriginNeuralAI/Ricky-McCormick-DECODED) | [Wow! Signal -- DECODED](https://github.com/OriginNeuralAI/The_Wow_Signal-DECODED)
 
 **Origin Neural AI** -- Research + Engineering
 
