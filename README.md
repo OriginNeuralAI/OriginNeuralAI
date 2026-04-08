@@ -34,7 +34,7 @@ We took a different path: encode hard problems into physics -- spin systems, ene
 
 The result? A 36-year-old CIA cipher cracked. A 600-year-old manuscript decoded. Optimization problems with **ten million variables** solved in **1.56 seconds** on a single GPU. Six of the hardest open problems in mathematics addressed with a single framework. The quantum graph secular equation matches **169/169 Riemann zeta zeros** at **0.23% mean error**. And the fine structure constant derived to **nine significant figures** from a 500-year-old cipher table — zero free parameters.
 
-**30 papers. 500+ verification checks. Zero falsifications. Three structurally derived predictions. The code is public.**
+**33 papers. 500+ verification checks. Zero falsifications. Three structurally derived predictions. The code is public.**
 
 </div>
 
@@ -513,7 +513,7 @@ The Phaistos Disc (c. 1700 BCE), discovered in Crete in 1908, decoded via spectr
 | [**U₂₄ Navier-Stokes**](https://github.com/OriginNeuralAI/u24-Navier-Stokes) | Navier-Stokes regularity -- Ginibre spectral floor, β≈3, dim 24,000 | All Rights Reserved | [![Checks](https://img.shields.io/badge/11%2F11-pass-brightgreen)](https://github.com/OriginNeuralAI/u24-Navier-Stokes) |
 | [**U₂₄ Hodge Conjecture**](https://github.com/OriginNeuralAI/u24-Hodge-Conjecture) | Hodge Conjecture -- K3 moonshine lift, χ(K3)=24=Ω, 25/25 checks | All Rights Reserved | [![Checks](https://img.shields.io/badge/25%2F25-pass-brightgreen)](https://github.com/OriginNeuralAI/u24-Hodge-Conjecture) |
 | [**The Unified Theory**](https://github.com/OriginNeuralAI/The_Unified_Theory) | Ω = 24 from 11 paths, non-polynomial obstruction, **277+ total checks** | All Rights Reserved | [![Checks](https://img.shields.io/badge/277%2B-pass-brightgreen)](https://github.com/OriginNeuralAI/The_Unified_Theory) |
-| [**Papers**](https://github.com/OriginNeuralAI/Papers) | All 30 research papers -- index, figures, frontier results | All Rights Reserved | — |
+| [**Papers**](https://github.com/OriginNeuralAI/Papers) | All 33 research papers -- index, figures, BSV hashes, frontier results | All Rights Reserved | — |
 | [**The Pyramid as a Machine**](https://github.com/OriginNeuralAI/The_Pyramid_as_a_Machine) | Reeds endomorphism compression gradient in sacred text | All Rights Reserved | — |
 
 ### Historical Ciphers & Signals
