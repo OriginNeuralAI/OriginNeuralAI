@@ -118,7 +118,7 @@ Unconditional proof of the Riemann Hypothesis. We construct a self-adjoint opera
 | **Topology** | H₂ = 0 verified at 7 scales (N = 10³ to height ~10²²) |
 | **Monster Primes** | 14/15 detected in spectral data |
 | **Lehmer Predictions** | 28,160 testable predictions |
-| **Papers** | [Spectral Operator (v12.0)](https://github.com/OriginNeuralAI/u24-spectral-operator/blob/main/papers/spectral-operator/main.pdf) + [Universality Constant (v1.3)](https://github.com/OriginNeuralAI/u24-spectral-operator/blob/main/papers/universality-constant/main.pdf) -- [On-Chain (BSV)](https://plugins.whatsonchain.com/api/plugin/main/d1e2303e0fa724156f1cb1b8e3aa0eded379b9b4354633ac36ea48dbbba18b02/0) |
+| **Papers** | [Spectral Operator (v14.1)](https://github.com/OriginNeuralAI/u24-spectral-operator/blob/main/papers/spectral-operator/main.pdf) + [Complete Proofs (v1.1)](https://github.com/OriginNeuralAI/u24-spectral-operator/blob/main/papers/complete-proofs/complete-proofs.pdf) + [Universality Constant (v1.3)](https://github.com/OriginNeuralAI/u24-spectral-operator/blob/main/papers/universality-constant/main.pdf) -- [BSV Hashes](https://github.com/OriginNeuralAI/Papers/blob/main/BSV_HASHES.md) |
 | **Data + Notebooks** | 8 Jupyter notebooks, 20 data files, full reproduction scripts |
 
 **[View Repository](https://github.com/OriginNeuralAI/u24-spectral-operator)** -- All claims independently verifiable for N ≤ 2,000 with standard Python.
@@ -512,7 +512,7 @@ The Phaistos Disc (c. 1700 BCE), discovered in Crete in 1908, decoded via spectr
 | [**U₂₄ BSD Conjecture**](https://github.com/OriginNeuralAI/u24-BSD-Conjecture) | BSD -- Hasse advantage, rank-1 correct at α = 5.0, 11,500-dim | All Rights Reserved | [![Checks](https://img.shields.io/badge/7%2F8-pass-brightgreen)](https://github.com/OriginNeuralAI/u24-BSD-Conjecture) |
 | [**U₂₄ Navier-Stokes**](https://github.com/OriginNeuralAI/u24-Navier-Stokes) | Navier-Stokes regularity -- Ginibre spectral floor, β≈3, dim 24,000 | All Rights Reserved | [![Checks](https://img.shields.io/badge/11%2F11-pass-brightgreen)](https://github.com/OriginNeuralAI/u24-Navier-Stokes) |
 | [**U₂₄ Hodge Conjecture**](https://github.com/OriginNeuralAI/u24-Hodge-Conjecture) | Hodge Conjecture -- K3 moonshine lift, χ(K3)=24=Ω, 25/25 checks | All Rights Reserved | [![Checks](https://img.shields.io/badge/25%2F25-pass-brightgreen)](https://github.com/OriginNeuralAI/u24-Hodge-Conjecture) |
-| [**The Unified Theory**](https://github.com/OriginNeuralAI/The_Unified_Theory) | Ω = 24 from 11 paths, non-polynomial obstruction, 241 total checks | All Rights Reserved | [![Checks](https://img.shields.io/badge/241-pass-brightgreen)](https://github.com/OriginNeuralAI/The_Unified_Theory) |
+| [**The Unified Theory**](https://github.com/OriginNeuralAI/The_Unified_Theory) | Ω = 24 from 11 paths, non-polynomial obstruction, **277+ total checks** | All Rights Reserved | [![Checks](https://img.shields.io/badge/277%2B-pass-brightgreen)](https://github.com/OriginNeuralAI/The_Unified_Theory) |
 | [**Papers**](https://github.com/OriginNeuralAI/Papers) | All 30 research papers -- index, figures, frontier results | All Rights Reserved | — |
 | [**The Pyramid as a Machine**](https://github.com/OriginNeuralAI/The_Pyramid_as_a_Machine) | Reeds endomorphism compression gradient in sacred text | All Rights Reserved | — |
 
