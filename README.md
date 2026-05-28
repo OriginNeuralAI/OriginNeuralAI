@@ -7,7 +7,6 @@
 ### Physics-Based Computation at Scale
 
 [![DSC-3 Isomorphic Engine](https://img.shields.io/badge/DSC--3_Isomorphic_Engine-Live_Demo-red?style=for-the-badge&logo=nvidia&logoColor=white)](https://dsc3.originneural.ai/)
-[![Engine API](https://img.shields.io/badge/Engine_API-v1-2196F3?style=for-the-badge&logo=fastapi&logoColor=white)](https://engine.originneural.ai/v1/)
 [![Benchmark Paper](https://img.shields.io/badge/D--Wave_Benchmark-DOI-success?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.20192275)
 [![Website](https://img.shields.io/badge/OriginNeural.ai-Platform-blue?style=for-the-badge&logo=safari&logoColor=white)](https://originneural.ai)
 [![Blog](https://img.shields.io/badge/Blog-Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white)](https://originneuralai.hashnode.dev)
@@ -38,7 +37,7 @@ The result is the **DSC-3 Isomorphic Engine**: **half a billion spins solved in 
 - [What It Solves](#what-it-solves) — problem classes and live scenarios
 - [Live Demo & API Access](#live-demo--api-access) — try it, build on it
 - [The D-Wave Benchmark](#the-d-wave-benchmark) — reproducible, DOI-anchored comparison
-- [Applications](#applications) — ORIGIN, BioPrime, TopoGrammar, ACO Academy
+- [Applications](#applications) — products built on the engine
 - [The Stack](#the-stack-physics-to-production) — physics → engine → products
 - [Research Program](#research-program) — physics-first, open-verification foundations
 - [Principles](#principles) — rigor, reproducibility, falsifiability
@@ -65,6 +64,11 @@ Its defining feature is **isomorphic routing** — the engine maps any incoming 
 
 DSC-3 outscales specialized quantum annealers (D-Wave Advantage2: ~4,400 qubits) by more than **200×** in embeddable problem size while running on hardware that costs four-to-five orders of magnitude less.
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/OriginNeuralAI/DSC3-DWave-Comparison-2026/main/figures/png/ceiling_push.png" alt="DSC-3 one-million-spin ceiling on a $1.57/hour droplet" width="80%">
+<br><em>One-million-spin 3D ±J ground-state approximation on a $1.57/hour cloud droplet.</em>
+</div>
+
 **[▶ Run it live](https://dsc3.originneural.ai/)** — interactive solver with Fast / Production / Quality presets and live GPU benchmarks from 1M to 500M spins.
 
 ---
@@ -86,11 +90,11 @@ The live site ships **12 real-world demonstration scenarios** spanning healthcar
 
 ## Live Demo & API Access
 
-| Resource | Link |
+| Resource | Where |
 |---|---|
-| **Interactive engine** | [dsc3.originneural.ai](https://dsc3.originneural.ai/) — Try It Live, 12 scenarios, live 1M–500M benchmarks |
-| **Engine API** | [engine.originneural.ai/v1](https://engine.originneural.ai/v1/) — 26 authenticated endpoints |
-| **DSC-1 (1M spins)** | [1millionspins.originneural.ai](https://1millionspins.originneural.ai/) — the earlier single-shot demo |
+| **Interactive engine** | **[dsc3.originneural.ai](https://dsc3.originneural.ai/)** — Try It Live, 12 scenarios, live 1M–500M benchmarks |
+| **Engine API** | `engine.originneural.ai/v1` — 26 authenticated endpoints (Bearer-token auth) |
+| **Request a key** | Via the [live site](https://dsc3.originneural.ai/) — API key request and contact-sales links |
 
 ### API Access & Security
 
@@ -101,8 +105,6 @@ The live site ships **12 real-world demonstration scenarios** spanning healthcar
 | **Rate limits** | Per-key concurrency and queue limits |
 | **Data retention** | Inputs are not stored. Outputs are blockchain-anchored on request. |
 | **Vulnerability reporting** | See `SECURITY.md` |
-
-Request an API key or contact sales from the [live site](https://dsc3.originneural.ai/).
 
 ---
 
@@ -120,20 +122,25 @@ The engine's headline claims are backed by a fully reproducible, peer-style comp
 | $/solve at N = 1,728 | $0.05–$1.30 (Leap floor) | **$0.024** | 10²–10⁵× |
 | MaxCut Δ vs SA at N = 10,000 | not embeddable | **+0.13–0.20%**, σ ≤ 0.02% | DSC-3 only |
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/OriginNeuralAI/DSC3-DWave-Comparison-2026/main/figures/png/cost_comparison.png" alt="Cost, power, and energy: D-Wave Advantage2 vs DSC-3" width="49%">
+<img src="https://raw.githubusercontent.com/OriginNeuralAI/DSC3-DWave-Comparison-2026/main/figures/png/b3_beyond_embedding.png" alt="MaxCut beyond D-Wave's embedding ceiling" width="49%">
+<br><em>Left: capex / $-per-solve / power / energy ratios span 10²–10⁶. Right: DSC-3 MaxCut quality past the 4,400-qubit embedding ceiling, with σ-error bars.</em>
+</div>
+
 Every numerical claim traces to a `results/*.json` file with a SHA-256 digest pinned in the paper. The same engine on a $700 consumer Blackwell card reproduces droplet results to within FP32 noise.
 
 ---
 
 ## Applications
 
-The same physics-based core powers a family of production platforms:
+The same physics-based core powers a family of production platforms — including **ORIGIN Voice** (real-time AI voice synthesis), **BioPrime** (drug discovery), **TopoGrammar** (3D genomics), and **ACO Academy** (agentic commerce).
 
 | Platform | Domain | Key Metric | Link |
 |---|---|---|---|
 | **ORIGIN Voice** | AI voice synthesis | Real-time streaming, voice cloning, free | [originneural.ai](https://originneural.ai) |
-| **BioPrime v4.0** | Drug discovery | 45% accuracy gain, R² = 0.73 across 10 targets | [bioprime.one](https://bioprime.one) |
-| **TopoGrammar** | 3D genomics | VUS reclassification 93%, F1 = 0.91 | [topogrammar](https://topogrammar.e2multipass.com) |
-| **ACO Academy** | Agentic commerce | 7-layer optimization stack + [benchmark tool](https://agenticcommerce.academy/benchmark) | [agenticcommerce.academy](https://agenticcommerce.academy/) |
+
+> Additional product sites are being migrated; links will be restored as each comes back online. The engine and its public benchmark above are live now.
 
 ---
 
@@ -221,7 +228,7 @@ Science requires falsifiability. We report what doesn't work alongside what does
 
 <img src="assets/origin_logo_icon.png" alt="Origin Neural AI" width="48">
 
-[DSC-3 Engine](https://dsc3.originneural.ai/) | [Engine API](https://engine.originneural.ai/v1/) | [D-Wave Benchmark](https://github.com/OriginNeuralAI/DSC3-DWave-Comparison-2026) | [OriginNeural.ai](https://originneural.ai) | [BioPrime](https://bioprime.one) | [TopoGrammar](https://topogrammar.e2multipass.com) | [ACO Academy](https://agenticcommerce.academy/) | [Blog](https://originneuralai.hashnode.dev)
+[DSC-3 Engine](https://dsc3.originneural.ai/) | [D-Wave Benchmark](https://github.com/OriginNeuralAI/DSC3-DWave-Comparison-2026) | [OriginNeural.ai](https://originneural.ai) | [Blog](https://originneuralai.hashnode.dev)
 
 **Origin Neural AI** — Research + Engineering
 
